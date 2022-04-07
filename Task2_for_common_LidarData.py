@@ -97,7 +97,7 @@ def ransac(points, threshold):
     elif (n[0] != 0 or n[1] != 0) and n[2] == 0:
         print('Plane is vertical.', end='')
     else:
-        print('Plane is not vertical neither horizontal.')
+        print('Plane is neither vertical nor horizontal.')
 
 
 ransac(points_all, 0.01)
